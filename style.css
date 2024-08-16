@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3B4664;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.calculator {
+    height: 70%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.89px;
+    text-align: left;
+}
+
+.display {
+    height: 20%;
+    width: 100%;
+}
+
+.user-input {
+    height: 100%;
+    width: 100%;
+    background-color: #181F32;
+    text-align: right;
+    border-radius: 12px;
+    padding: 12px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 3rem;
+}
+
+.keypad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #252D44;
+    height: 70%;
+    width: 100%;
+    padding: 5%;
+    border-radius: 12px;
+    gap: 2rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    gap: 1rem;
+}
+
+.key {
+    background-color: #EAE3DB;
+    color: #3B4664;
+    height: 100%;
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36.31px;
+    text-align: center;
+}
+
+.delete-key {
+    background-color: #647299;
+    color: #FFFFFF;
+    height: 100%;
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 800;
+    font-family: Inter;
+    text-align: center;
+}
+
+.reset-key {
+    background-color: #647299;
+    color: #FFFFFF;
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.equal {
+    background-color: #D13F30;
+    color: #FFFFFF;
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 800;
+    font-family: Inter;
+    text-align: center;
+}
+
+.key:hover,
+.equal:hover,
+.delete-key:hover,
+.reset-key:hover {
+    cursor: pointer;
+}
